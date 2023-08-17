@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: lightgray;
+	font-family: arial;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #cc0000;
+}
+
+#logo{
+	width: 20%;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.topnav{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	padding-left: 200px;
+	padding-top: 10px;
+}
+
+.topnav a{
+	font-size: 22px;
+	color: #000;
+	text-decoration: none;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.topnav a:hover{
+	border-bottom: solid 4px #cc0000;
+	
+}
+
+
+
+/*content style*/
+.content{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+	margin-top: 100px;
+	padding-top: 30px;
+}
+
+.clear{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.sec1{
+	width: 70%;
+	margin: 0 auto;
+}
+.sec1 a{
+	color: #000;
+	text-decoration: none;
+}
+.sec1 img{
+	width: 40%;
+	float: left;
+}
+.sec1 article{
+	padding-left: 15px;
+	width: 60%;
+	float: left;
+}
+
+.sec1 article h1{
+	font-size: 30px;
+}
+
+.sec1 article h1:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*Section Two style*/
+.sec2{
+	width: 70%;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+.box{
+	width: 24%;
+	margin-right: 5px;
+	float: left;
+}
+.box img{
+	width: 100%;
+	height: 150px;
+}
+.box h3{
+	font-size: 18px;
+}
+.box h3:hover{
+	text-decoration: underline;
+}
+.box a{
+	color: #000;
+	text-decoration: none;
+}
+
+
+/*Footer style*/
+footer{
+	width: 100%;
+	height: 350px;
+	background-color: black;
+	margin-top: 90px;
+}
+
+.footerlogo{
+	width: 100%;
+	height: 70px;
+	background-color:  #cc0000;
+}
+
+
+.subfooter{
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.subfooter a{
+	color: white;
+	text-decoration: none;
+}
+.subfooter a:hover{
+	text-decoration: underline;
+}
+
+.subfooter p,hr,a{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*WAR1 STYLE*/
+.middle{
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+	height: 1200px;
+	background-color: white;
+	margin-top: 150px;
+}
+
+.right{
+	width: 70%;
+	float: left;
+}
+
+.right p,img,h1,h4{
+	margin-bottom: 20px;
+	width: 90%;
+}
+
+.left{
+	width: 30%;
+	float: left;
+}
+
+.left p{
+	background-color: white;
+	color: black;
+	margin-top: 25px;
+}
+
+.left a{
+	text-decoration: none;
+	color: black;
+}
+
+.left a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*Meadia Syle*/
+
+@media screen and (max-width: 360px){
+
+	.sec1 img{
+		width: 100%;
+	}
+	.sec1 article{
+		width: 100%;
+	}
+
+	.sec1 article h1{
+		font-size: 16px;
+	}
+	.box{
+		width: 100%;
+	}
+
+	.topnav{
+		display: none;
+	}
+
+
+}
+
+
+
+
+
+
+
+
